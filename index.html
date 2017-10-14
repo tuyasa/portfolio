@@ -1,17 +1,358 @@
- <script type="text/javascript">
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Raphael Sabouraud's portfolio">
+    <meta name="author" content="">
+    <title>Raphael Sabouraud</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+  </head>
 
-  ga('create', 'UA-91885863-1', 'auto');
-  ga('send', 'pageview');
- </script>
-<script type="text/javascript">
-    var lang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
-    var preferedLang = lang[0]+lang[1]; // fr 
-        if(preferedLang == "fr")
-            document.location.href="fr/index.html"
-        else
-            document.location.href="en/index.html"
-</script>
+  <body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Raphaël Sabouraud</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#portfolio">Projects</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1>Raphael Sabouraud</h1>
+          <hr>
+          <h2>Master‘s degree in game and interactive desgin at Polytech Nice-Sophia</h2>
+        </div>
+      </div>
+    </header>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">About</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>
+              Hello ! Welcome to my portfolio ! My name is Raphaël Sabouraud. After a Bachelor's degree in C.S I moved to a master's degree specialized in computer games.
+            </p>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
+        <div class="row equal">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Projects</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="content">
+        <div id="projects_page" class="projects_page">
+          <article>
+            <div class="project-image project-right"><img src="img/bushidontLarge.png" alt=""></div>
+            <div class="project-description project-left">
+              <h1>Bushidon't</h1>
+              <h3>Lead Programmer</h2>
+              <h4>In progress</h4>
+              <p>Bushidon't is a die-and-retry multiplayer 2D party-game in which four samurais filled with selfishness have to battle against each other to get stronger in order to have a chance to defeat an upcoming boss alone for glory.
+              </p>
+              <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+          </article>
+          <article>
+            <div class="project-description project-left">
+              <h1>Catalogue 3D</h1>
+              <h3>Unity Programmer</h2>
+              <h4>March 2017</h4>
+              <p>3D unity webgl application showcasing the glasses packaging made by codipack.</p>
+              <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="project-image project-right"><img src="img/codipack.png" alt=""></div>
+          </article>
+          <article>
+            <div class="project-image project-left"><img src="img/mementomori2017.jpg" alt=""></div>
+            <div class="project-description project-right">
+              <h1>Memento Mori</h1>
+              <h3>Unity Programmer</h2>
+              <h4>March 2017</h4>
+              <p>Memento Mori is an atypical game which, both in terms of form and content, invites the player to question the actions of daily life and the impact they can have on a larger scale. Explore the house in search of interactions and contemplate the consequences of your actions in a universe that borders on dreams.</p>
+              <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+          </article>
+          <article>
+            <div class="project-description project-left">
+              <h1>Mind Hunter</h1>
+              <h3>Unity Programmer</h2>
+              <h4>March 2017</h4>
+              <p>Memento Mori is an atypical game which, both in terms of form and content, invites the player to question the actions of daily life and the impact they can have on a larger scale. Explore the house in search of interactions and contemplate the consequences of your actions in a universe that borders on dreams.</p>
+              <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="project-image project-right"><img src="img/mindhuntertest.png" alt=""></div>
+          </article>
+          <article>            
+            <div class="project-image project-left"><img src="img/stressed.jpg" alt=""></div>
+            <div class="project-description project-right">
+              <h1>Stressed</h1>
+              <h3>Unity Programmer</h2>
+              <h4>March 2017</h4>
+              <p>Memento Mori is an atypical game which, both in terms of form and content, invites the player to question the actions of daily life and the impact they can have on a larger scale. Explore the house in search of interactions and contemplate the consequences of your actions in a universe that borders on dreams.</p>
+              <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+              
+            </div>
+            
+          </article>
+          <article>
+            <div class="project-description project-left">
+              <h1>binairo</h1>
+              <h3>Unity Programmer</h2>
+              <h4>March 2017</h4>
+              <p>Memento Mori is an atypical game which, both in terms of form and content, invites the player to question the actions of daily life and the impact they can have on a larger scale. Explore the house in search of interactions and contemplate the consequences of your actions in a universe that borders on dreams.</p>
+              <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <div class="project-image project-right"><img src="img/binairo.jpg" alt=""></div>
+          </article>
+        </div>
+      </div>
+      <section id="portfolio" style="padding : 100px 100px;">
+        <div class="container">
+          <div class="row equal">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Projects</h2>
+              <hr class="primary">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Bushidon't -->
+        <div class="row">
+          <div class="col-xs-1 col-sm-1 col-lg-1"></div>
+          <div class="col-xs-8 col-sm-6 col-lg-4">
+            <h3>Bushidon't</h3>
+            <p>Februrary 2018</p>
+            <p>Bushidon't is a die-and-retry multiplayer 2D party-game in which four samurais filled with selfishness have to battle against each other to get stronger in order to have a chance to defeat an upcoming boss alone for glory.</p>
+            <a class="btn btn-primary">Coming Soon<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+          <div class="col-xs-1 col-sm-1 col-lg-1"></div>
+          <div class="col-xs-8 col-sm-6 col-lg-4">
+            <img class="img-responsive" src="img/bushidontLarge.png" alt="">
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+        <!-- Codipack -->
+        <div class="row top-buffer">
+          <div class="col-md-7">
+            <img class="img-responsive" src="img/codipackOld.jpg" alt="">
+          </div>
+          <div class="col-md-5">
+            <h3>Catalogue 3D</h3>
+            <a href="http://www.codipack-france.com"><h4>Codipack</h4></a>
+            <p>March 2017</p>
+            <p>3D unity webgl application showcasing the glasses packaging made by codipack.</p>
+            <a class="btn btn-primary" href="http://www.codipack-france.com/catalogue3d/">Try<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+        
+        <hr>
+        <!-- Climate Game Jam 2017 -->
+        <div class="row top-buffer">
+          <div class="col-md-5">
+            <h3>Memento Mori</h3>
+            <a href="https://hakatah.com/climate-game-jam-2017/"><h4>Climate Game Jam</h4></a>
+            <p>March 2017</p>
+            <p>Memento Mori is an atypical game which, both in terms of form and content, invites the player to question the actions of daily life and the impact they can have on a larger scale. Explore the house in search of interactions and contemplate the consequences of your actions in a universe that borders on dreams.</p>
+            <a class="btn btn-primary" href="https://hakatah.com/climate-game-jam-2017/creations2017/mementomori/">SEE MORE<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+          <div class="col-md-7">
+            <img class="img-responsive" src="img/mementomori.jpg" alt="">
+          </div>
+        </div>
+        <hr>
+        <!-- Mind Hunter -->
+        <div class="row top-buffer">
+          <div class="col-md-7">
+            <img class="img-responsive" src="img/mindhunter.jpg" alt="">
+          </div>
+          <div class="col-md-5">
+            <h3>Mind Hunter</h3>
+            <a href="http://www.polytechnice.fr"><h4>Polytech Nice-Sophia</h4></a>
+            <p>February 2017</p>
+            <p>
+              Mind Hunter is an infiltration/platformer game where the player must focus in order to enable the abilities of the character. The <a href="http://store.neurosky.com/pages/mindwave">mindwave</a> headset tracks the focus of the player.
+            </p>
+            <a class="btn btn-primary" href="https://www.youtube.com/watch?v=d_6Fp1RJUiI&feature=youtu.be">Video<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+          
+        </div>
+        <hr>
+        
+        <!-- Global Game Jam 2017 -->
+        <div class="row top-buffer">
+          <div class="col-md-7">
+            <img class="img-responsive" src="img/redfrequency.jpg" alt="">
+          </div>
+          <div class="col-md-5">
+            <h3>Red frequency</h3>
+            <a href="http://globalgamejam.org"><h4>Global Game Jam</h4></a>
+            <p>January 2017</p>
+            <p>Red Frequency, a story about the cold war in Cuba is a narrative runner. In 1962, a confrontation between the United States and the Soviet Union happened. It was known as the Cuban missile crisis. Our story begins with Juan, he was a simple man. But even a simple man can shake up things. The player needs to catch the stars with the radio wave to read the entire message.</p>
+            <a class="btn btn-primary" href="https://www.youtube.com/watch?v=d7PTQfriED4">Video<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+        <hr>
+        <!-- Global Game Jam 2016 -->
+        <div class="row top-buffer">
+          <div class="col-md-7">
+            <img class="img-responsive" src="img/stressed.jpg" alt="">
+          </div>
+          <div class="col-md-5">
+            <h3>Stressed</h3>
+            <a href="http://globalgamejam.org"><h4>Global Game Jam</h4></a>
+            <p>January 2016</p>
+            <p>Stressed is a game about how rituals help to cope with Stress Disorders.</p>
+            <a class="btn btn-primary" href="http://globalgamejam.org/2016/games/stressed">Play<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+        <hr>
+        <!-- Binairo Juin 2015-->
+        <div class="row top-buffer">
+          <div class="col-md-7">
+            <a href="binairo.jpg" target="_blank">
+              <img class="img-responsive" src="img/binairo.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Binairo</h3>
+            <a href="http://wasapp.li"><h4>Wasappli</h4></a>
+            <p>June 2015</p>
+            <p>Binairo is a binary puzzle. I have worked alone on this game project during my internship at Montreal, Canada.</p>
+            <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=li.wasapp.binairo&hl=fr">Play<span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+        <!-- /.row -->
+        <hr>
+        <!-- Astro Puru Digger -->
+        <div class="row top-buffer">
+          <div class="col-md-7">
+            <img class="img-responsive" src="img/astropurudigger.jpg" alt="">
+          </div>
+          <div class="col-md-5">
+            <h3>Astro Puru Digger</h3>
+            <a href="https://www.iut.u-bordeaux.fr/info/"><h4>IUT Bordeaux 1</h4></a>
+            <p>June 2014</p>
+            <p>during the end of my first year at the university of Bordeaux. Made in C++ with the SFML for the graphics part. Base on the game <a href="http://www.jeux.fr/jeu/puru-puru-digger">Puru Puru Digger</a>.
+          </p>
+          <a class="btn btn-primary" href="https://bitbucket.org/corentinmb/graphic_puru_final">Source code<span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+      </div>
+      <hr>
+    </section>
+    <!-- /.row -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading">Contact me</h2>
+            <hr class="primary">
+          </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+              <p>+33 777 366 639</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+              <p><a href="mailto:raphael.sabouraud@gmail.com">raphael[dot]sabouraud[at]gmail[dot]com</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="fa fa-skype fa-3x wow bounceIn" data-wow-delay=".3s"></i>
+              <p>raphael.sabouraud</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li><a href="https://bitbucket.org/rapsabouraud"><i class="fa fa-bitbucket"></i></a>
+            </li>
+            <li><a href="https://github.com/tuyasa"><i class="fa fa-github"></i></a>
+          </li>
+        </li>
+        <li><a href="https://www.linkedin.com/profile/view?id=AAIAABRyhdMBxjspD4K0_cZmqS4FLuF-IVv59BQ&trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin"></i></a>
+      </li>
+      <li><a href="https://twitter.com/tuyasa1"><i class="fa fa-twitter"></i></a>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+</footer>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/creative.js"></script>
+</body>
+</html>
