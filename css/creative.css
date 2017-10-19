@@ -4,6 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.top-buffer-20 {
+    padding-top: 20px;
+}
+
+.top-buffer-30 {
+ padding-top: 30px;   
+}
+
+.top-buffer-40 {
+ padding-top: 40px;   
+}
+
 html,
 body {
     width: 100%;
@@ -76,10 +88,6 @@ section .about {
 }
 aside {
     padding: 50px 0;
-}
-
-.no-padding {
-    padding: 0;
 }
 
 .navbar-default {
@@ -178,7 +186,7 @@ aside {
     }
 }
 
-header {
+/*header {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -190,7 +198,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+}*/
 
 header .header-content {
     position: relative;
