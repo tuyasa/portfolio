@@ -3,6 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.role {
+    color: #f05f40;
+    font-style: italic;
+    font-weight: bold;
+    color: #888888;
+}
 
 .top-buffer-20 {
     padding-top: 20px;
@@ -24,6 +30,7 @@ body {
 
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+
 }
 
 hr {
@@ -46,15 +53,6 @@ a {
 a:hover,
 a:focus {
     color: #eb3812;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
