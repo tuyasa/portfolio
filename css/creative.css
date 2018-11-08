@@ -10,6 +10,14 @@
     color: #888888;
 }
 
+.top-buffer-5 {
+ padding-top: 5px;   
+}
+
+.top-buffer-10 {
+ padding-top: 10px;   
+}
+
 .top-buffer-20 {
     padding-top: 20px;
 }
@@ -21,6 +29,7 @@
 .top-buffer-40 {
  padding-top: 40px;   
 }
+
 
 html,
 body {
