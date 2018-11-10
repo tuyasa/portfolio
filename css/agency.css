@@ -376,6 +376,20 @@ ul.social-buttons {
     margin-bottom: 0;
 }
 
+.whatIDid {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
 ul.social-buttons li a {
     display: block;
     width: 40px;
